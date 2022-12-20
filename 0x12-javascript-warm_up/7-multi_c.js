@@ -1,10 +1,11 @@
 #!/usr/bin/node
-'use strict';
-let x = process.argv[2];
-if (isNaN(x)) {
+const myNumber = parseInt(process.argv[2]);
+let index = 0;
+if (Number.isNaN(myNumber)) {
   console.log('Missing number of occurrences');
 } else {
-  for (let i = 0; i < x; i++) {
+  while (index < myNumber) {
     console.log('C is fun');
+    index = index + 1;
   }
 }
