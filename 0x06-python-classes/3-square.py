@@ -5,6 +5,8 @@ This Module contain a defination for a square class
 
 
 class Square:
+    """ A class to define a square objects"""
+
     def __init__(self,size=0):
         """ A method to intantiate the object of the class with size
 
