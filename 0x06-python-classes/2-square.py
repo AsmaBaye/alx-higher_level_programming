@@ -6,7 +6,6 @@ This module contains a defination of a square class
 
 class Square:
     """A class that represnt a square"""
-    
     def __init__(self, size=0):
         """Intialize a class with size validation
         Args:
