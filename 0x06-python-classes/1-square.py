@@ -8,7 +8,7 @@ This module contain a defination for square class with priv attr
 
 class Square:
     """A class that define a square"""
- 
+
     def __init__(self,size):
         """Intialize object with size
 
