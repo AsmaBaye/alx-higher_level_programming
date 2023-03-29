@@ -11,7 +11,7 @@ class Square:
         """ A method to intantiate the object of the class with size
 
         Args:
-            size (int, optional): A non negative size is expected . Defaults to 0.
+        size (int, optional): A non negative size is expected . Defaults to 0.
         """
         
         if type(size) != int:
@@ -28,4 +28,3 @@ class Square:
         """
         return self.__size * self.__size
 
-    
