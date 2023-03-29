@@ -11,14 +11,9 @@ class Square:
         Args:
         size (int): size of int greater than zero_. Defaults to 0.
         """
-        try:
-            isinstance(int, size)
-        except TypeError:
-            print("size must be an integer")
-
-        try:
-            size >= 0
-        except ValueError:
-            print("size must be >= 0")
-
+        
+        if type(size) != int:
+            raise TypeError("size must be an integer")
+        elif size<=0:
+            raise ValueError("size must be >= 0")          
         self.__size = size
