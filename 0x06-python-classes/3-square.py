@@ -13,11 +13,11 @@ class Square:
         Args:
         size (int, optional): A non negative size is expected . Defaults to 0.
         """
-        
+
         if type(size) != int:
-            raise TypeError("size must be an integer")
+           raise TypeError("size must be an integer")
         elif size < 0:
-            raise ValueError("size must be >= 0")
+           raise ValueError("size must be >= 0")
         self.__size = size
         
     def area(self):
@@ -27,4 +27,3 @@ class Square:
             int: area of a square
         """
         return self.__size * self.__size
-
