@@ -13,5 +13,5 @@ class Square:
         """Intialize object with size
         Args:
         size: _set the size of a square
-		"""
+        """
         self.__size = size
