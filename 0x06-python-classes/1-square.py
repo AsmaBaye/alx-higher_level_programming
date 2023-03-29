@@ -3,7 +3,7 @@
 """Module 1-square 
 
 This module contain a defination for square class with priv attr
-	"""
+"""
  
  
 class Square:
@@ -11,7 +11,7 @@ class Square:
     
     def __init__(self,size):
         """Intialize a class with a size
-		Args:
-			size: _the size of a square
+        Args:
+        	size: _the size of a square
 		"""
         self.__size = size
