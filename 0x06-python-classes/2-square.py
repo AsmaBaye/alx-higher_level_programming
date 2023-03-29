@@ -20,3 +20,5 @@ class Square:
             size>=0
         except ValueError:
             print("size must be >= 0")
+        
+        self.__size = size
